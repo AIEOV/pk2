@@ -10,7 +10,7 @@ async function main() {
   const password = response.data.password;
 
   console.log(username, password);
-  let pikPak = new PikPak(username, password, null, "53875539");
+  let pikPak = new PikPak(username, password, null, "95560330");
 
   pikPak
     .authVerification()
