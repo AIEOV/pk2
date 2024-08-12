@@ -1,8 +1,8 @@
 name: Scheduled Node.js CI
 
 on:
-  schedule:
-    - cron: "2 3 * * *"
+  #schedule:
+  #  - cron: "2 3 * * *"
   workflow_dispatch: # 添加这行以允许手动触发
 
 jobs:
